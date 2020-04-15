@@ -17,7 +17,6 @@ export default class index extends Component {
   handleInputChange(event) {
     const value = event.target.value;
     const inputName = event.target.name;
-    console.log(value);
     this.setState({
       [inputName]: value,
     });
@@ -44,7 +43,7 @@ export default class index extends Component {
     return (
       <div>
         <header>
-          <button onClick={console.log('Closing the page maybe')}>
+          <button>
             <img src="/closeIcon.png" alt="close icon" />
           </button>
         </header>
