@@ -22,14 +22,16 @@ export default class index extends Component {
       <div>
         <div className="image">
           <img src="background.jpg" alt="void" />
-          <img src="offermanager.png" alt="void" />
+          <img src="offermanager.png" alt="tool" />
         </div>
-        <Slider {...settings}>
-          <FirstText />
-          <SecondText />
-          <ThirdText />
-          <FourthText />
-        </Slider>
+        <div class>
+          <Slider {...settings}>
+            <FirstText />
+            <SecondText />
+            <ThirdText />
+            <FourthText />
+          </Slider>
+        </div>
       </div>
     );
   }
